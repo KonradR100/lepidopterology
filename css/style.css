@@ -115,9 +115,10 @@ button{
 
 
 footer {
-  background: linear-gradient(to bottom right, #7f6f67, #5e4d4d);
+  background: linear-gradient(to bottom right, #7F6F67, #5E4D4D);
   text-align: center;
   color: white;
+  height:100%;
 }
 
 @media (max-width: 1000px) {
@@ -136,7 +137,7 @@ footer {
 }
 
 .image-gallery img {
-  height: 400px; /* Wysokość wszystkich zdjęć */
+  height: auto; /* Wysokość wszystkich zdjęć */
   width: auto; /* Szerokość dostosowana proporcjonalnie */
   object-fit: cover;
 }
@@ -146,6 +147,7 @@ footer {
 .image-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .image-container img {
